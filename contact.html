@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+             <a href="index.html"><img src="images/logo.jpg" alt="logo" width="20" height="20"></a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section id="contactinfo">
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+             <!-- Text Input -->
+            <label for="name">Your name:</label>
+            <input type="text" id="name" required> <br> <br>
+             <!-- Number Input-->
+            <label for="age">Your age:</label>
+            <input type="number" id="age" required> <br><br>
+            <!-- Radio buttons -->
+            <label>Your gender:</label>
+            <input type="radio" id="male" name="gender"> <label for="male" > Male</label>
+            <input type="radio" id="female" name="gender"> <label for="female"> Female</label> <br><br>
+             <!-- Checkbox-->
+             <label > Have you subscribed to my channel yet?</label>
+             <input type="checkbox" id="yes" name="subscribe" value="yes"> <label for="yes">Yes</label>
+             <input type="checkbox" id="no" name="subscribe" value="no"> <label for="no">No</label> <br><br>
+              <!-- Range input -->
+              <label for="satisfaction" > Rate your satisfaction level(1-10)</label>
+              <input type="range" min="1" max="10" id="satisfaction"> <br><br>
+              <!--Text area input -->
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" rows="3" cols="30"></textarea> <br><br>
+              <section class="buttons">
+                <!--Submit Button-->
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Reset">
+              </section>
+              
+        </form>
+
+    </section>
+    
+
+    <footer>
+        <p> 2025 Victory Bedru | All rights reserved</p>
+    </footer>
+</body>
+</html>
